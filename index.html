@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <header>
+        <h1>Advanced HTML5 Elements and Forms</h1>
+    </header>
+
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Ordered List (Roman Numerals)</h2>
+        <ol type="I">
+            <li>Introduction to HTML5</li>
+            <li>Using Forms and Input Types</li>
+            <li>Multimedia Elements</li>
+            <li>Best Practices for HTML Structure</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Sample Image</h2>
+        <img src="https://images.pexels.com/photos/1596489/pexels-photo-1596489.jpeg" alt="Nature image" width="600">
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dun Korir</td>
+                    <td>123 Main St, Nairobi</td>
+                    <td>+254 712 345678</td>
+                    <td>duncorir@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Oak St, Kisumu</td>
+                    <td>+254 723 456789</td>
+                    <td>janesmith@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Samuel Njoroge</td>
+                    <td>789 Pine St, Eldoret</td>
+                    <td>+254 734 567890</td>
+                    <td>samueln@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Mary Nyambura</td>
+                    <td>101 Maple St, Nakuru</td>
+                    <td>+254 745 678901</td>
+                    <td>marynyambura@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Peter Muthui</td>
+                    <td>202 Cedar St, Mombasa</td>
+                    <td>+254 756 789012</td>
+                    <td>petermuthui@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            <!-- Name -->
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br><br>
+
+            <!-- Date -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label for="terms">Accept Terms and Conditions:</label>
+            <input type="checkbox" id="terms" name="terms" required>
+            <br><br>
+
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Power Lean Project 2025</p>
+    </footer>
+</body>
+</html>
